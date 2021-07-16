@@ -1,17 +1,22 @@
 {
     "window.zoomLevel": -0.3,
-    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 10,
     "workbench.tree.renderIndentGuides": "always",
+
     "markdown.preview.fontSize": 12,
+
     "editor.fontFamily": "Hack, DejaVu Sans Mono",
     "editor.fontSize": 14,
+    "editor.tabSize": 4,
     "editor.mouseWheelZoom": false,
     "editor.minimap.enabled": false,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "underline",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
 
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.copyOnSelection": true,
@@ -28,16 +33,16 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
 
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.showReleaseNotes": false,
+
     "extensions.ignoreRecommendations": true,
+
     "github.gitAuthentication": false,
 
-    "files.exclude":
-    {
+    "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,

@@ -1,0 +1,13 @@
+[core]
+	editor = vim
+	autocrlf = input
+
+[user]
+	name = Vyacheslav Dmitriev
+	email = rtefforg@gmail.com
+
+[alias]
+	st = status --short --branch
+	last = log -1 HEAD
+	visual = !gitk
+	cfg = config --list
